@@ -1,3 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Agdasima:wght@400;700&family=Aldrich&family=Allura&family=Annie+Use+Your+Telescope&family=Anta&family=Antonio:wght@100..700&family=Architects+Daughter&family=Atma:wght@300;400;500;600;700&family=Bahiana&family=Bangers&family=Bebas+Neue&family=Beth+Ellen&family=Big+Shoulders+Display:wght@100..900&family=Bilbo&family=Bilbo+Swash+Caps&family=Caveat:wght@400..700&family=Copse&family=Covered+By+Your+Grace&family=Dancing+Script:wght@400..700&family=East+Sea+Dokdo&family=Englebert&family=Fasthand&family=Gemunu+Libre:wght@200..800&family=Geo:ital@0;1&family=Girassol&family=Kumar+One+Outline&family=La+Belle+Aurore&family=Lacquer&family=Maiden+Orange&family=Mansalva&family=Metrophobic&family=Mohave:ital,wght@0,300..700;1,300..700&family=Montserrat+Subrayada:wght@400;700&family=Orbitron:wght@400..900&family=Oregano:ital@0;1&family=Pragati+Narrow:wght@400;700&family=Rationale&family=Ruda:wght@400..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira:ital,wght@0,100..900;1,100..900&family=Seaweed+Script&family=Sixtyfour&family=Slabo+13px&family=Sniglet:wght@400;800&family=Sunflower:wght@300&family=Tillana:wght@400;500;600;700;800&family=Train+One&family=Trocchi&family=Unica+One&family=Whisper&family=Workbench&family=Yatra+One&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Mina:wght@400;700&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/trajan-pro');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Anta&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Geo:ital@0;1&family=Iceland&family=Kdam+Thmor+Pro&family=Nova+Square&family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&family=Rationale&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sarpanch:wght@400;500;600;700;800;900&family=Teko:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --Abel: "Abel", sans-serif;
+    --Advent: "Advent Pro", sans-serif;
+    --Agdasima: "Agdasima", sans-serif;
+    --Aldrich: "Aldrich", sans-serif;
+    --Allura: "Allura", cursive;
+    --Alumni: "Alumni Sans", sans-serif;
+    --Annie: "Annie Use Your Telescope", cursive;
+    --Anta: "Anta", sans-serif;
+    --Antonio: "Antonio", sans-serif;
+    --Archi: "Architects Daughter", cursive;
+    --Atma: "Atma", system-ui;
+    --Aurore: "La Belle Aurore", cursive;
+    --Bahiana: "Bahiana", sans-serif;
+    --Bangers: "Bangers", system-ui;
+    --Bebas: "Bebas Neue", sans-serif;
+    --Beth: "Beth Ellen", cursive;
+    --Bigshou: "Big Shoulders Display", sans-serif;
+    --Bilbo: "Bilbo Swash Caps", cursive;
+    --Calligra: "Calligraffitti", cursive;
+    --Caveat: "Caveat", cursive;
+    --Caveat2: "Caveat Brush", cursive;
+    --Chakra: "Chakra Petch", sans-serif;
+    --Copse: "Copse", serif;
+    --Covered: "Covered By Your Grace", cursive;
+    --Dancing: "Dancing Script", cursive;
+    --East: "East Sea Dokdo", sans-serif;
+    --Englebert: "Englebert", cursive;
+    --Fasthand: "Fasthand", cursive;
+    --Gemunu: "Gemunu Libre", sans-serif;
+    --Geo: "Geo", sans-serif;
+    --Girassol: "Girassol", serif;
+    --Iceland: "Iceland", sans-serif;
+    --Kdam: "Kdam Thmor Pro", sans-serif;
+    --Kumar: "Kumar One Outline", system-ui;
+    --Lacquer: "Lacquer", system-ui;
+    --Maiden: "Maiden Orange", serif;
+    --Mansalva: "Mansalva", sans-serif;
+    --Metro: "Metrophobic", sans-serif;
+    --Mina: "Mina", sans-serif;
+    --Mohave: "Mohave", sans-serif;
+    --Nova: "Nova Square", sans-serif;
+    --Orbitron: "Orbitron", sans-serif;
+    --Oregano: "Oregano", cursive;
+    --Oswald: "Oswald", sans-serif;
+    --Pragati: "Pragati Narrow", sans-serif;
+    --Public: "Public Sans", sans-serif;
+    --Rajdhani: "Rajdhani", sans-serif;
+    --Rationale: "Rationale", sans-serif;
+    --Roboto: "Roboto", sans-serif;
+    --Ruda: "Ruda", sans-serif;
+    --Saira: "Saira Condensed", sans-serif;
+    --Sarpanch: "Sarpanch", sans-serif;
+    --Seaweed: "Seaweed Script", cursive;
+    --Sixty: "Sixtyfour", sans-serif;
+    --Slabo: "Slabo 27px", serif;
+    --Sniglet: "Sniglet", system-ui;
+    --Subra: "Montserrat Subrayada", sans-serif;
+    --Sunflower: "Sunflower", sans-serif;
+    --Teko: "Teko", sans-serif;
+    --Tillana: "Tillana", system-ui;
+    --Train: "Train One", system-ui;
+    --Trocchi: "Trocchi", serif;
+    --Unica: "Unica One", sans-serif;
+    --Urbanist: "Urbanist", sans-serif;
+    --Whisper: "Whisper", cursive;
+    --Workbench: "Workbench", sans-serif;
+    --Yatra: "Yatra One", system-ui;
+    --Yellowtail: "Yellowtail", cursive;
+    --Xanh: "Xanh Mono", monospace;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
 /******FICHE RELATION/RP #1 START******/
 .Aiolos {
     --col0: #baecff;
@@ -682,3 +767,125 @@
     background: var(--c3);
 }
 /******FICHE RELATION/RP #1 END******/
+
+/******FICHE RP #1 START******/
+.CH_RP1 {
+    position: relative;
+    width: 650px;
+    margin: auto;
+    background-color: #121212;
+    background-image: url(https://i.postimg.cc/52gSGb0f/Sans-titre-1.png);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.CH_RP1 div {
+    box-sizing: border-box;
+}
+
+.CHRP1_bann {
+    position: relative;
+    width: 650px;
+    height: 170px;
+    background-color: #0eb1b7;
+    z-index: 99;
+    box-shadow: 0px 0px 10px 0px #060606;
+}
+
+.CHRP1_bann img {
+    width: 650px;
+    height: 170px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.CHRP1_title {
+    position: absolute;
+    width: 650px;
+    height: 170px;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 20px;
+    background: linear-gradient(to right, #0eb1b7 40%, transparent);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.CHRP1_title span {
+    padding-top: 10px;
+    color: #fff;
+    font-family: var(--Oswald);
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.CHRP1_title i {
+    color: #fff;
+    font-family: var(--Abel);
+    font-size: 20px;
+}
+
+.CHRP1_barre {
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    background-color: #0eb1b7;
+    left: 70px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.CHRP1_content {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.CHRP1_left {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CHRP1_ico {
+    width: 100px;
+    height: 100px;
+    background-color: #222222;
+    z-index: 99;
+    box-shadow: 0px 0px 10px 0px #060606;
+}
+
+.CHRP1_ico img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.CHRP1_right {
+    flex: 1;
+    background-color: #222222;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px #060606;
+}
+
+.CHRP1_right p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #fff;
+    font-family: var(--Roboto);
+    font-size: 14px;
+    text-align: justify;
+}
+
+.CHRP1_cred {
+    position: absolute;
+    left: 100px;
+    bottom: 4px;
+    color: #535353;
+    font-family: var(--Geo);
+    font-size: 14px;
+}
+/******FICHE RP #1 END******/

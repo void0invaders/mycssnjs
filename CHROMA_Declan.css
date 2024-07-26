@@ -1,3 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Agdasima:wght@400;700&family=Aldrich&family=Allura&family=Annie+Use+Your+Telescope&family=Anta&family=Antonio:wght@100..700&family=Architects+Daughter&family=Atma:wght@300;400;500;600;700&family=Bahiana&family=Bangers&family=Bebas+Neue&family=Beth+Ellen&family=Big+Shoulders+Display:wght@100..900&family=Bilbo&family=Bilbo+Swash+Caps&family=Caveat:wght@400..700&family=Copse&family=Covered+By+Your+Grace&family=Dancing+Script:wght@400..700&family=East+Sea+Dokdo&family=Englebert&family=Fasthand&family=Gemunu+Libre:wght@200..800&family=Geo:ital@0;1&family=Girassol&family=Kumar+One+Outline&family=La+Belle+Aurore&family=Lacquer&family=Maiden+Orange&family=Mansalva&family=Metrophobic&family=Mohave:ital,wght@0,300..700;1,300..700&family=Montserrat+Subrayada:wght@400;700&family=Orbitron:wght@400..900&family=Oregano:ital@0;1&family=Pragati+Narrow:wght@400;700&family=Rationale&family=Ruda:wght@400..900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira:ital,wght@0,100..900;1,100..900&family=Seaweed+Script&family=Sixtyfour&family=Slabo+13px&family=Sniglet:wght@400;800&family=Sunflower:wght@300&family=Tillana:wght@400;500;600;700;800&family=Train+One&family=Trocchi&family=Unica+One&family=Whisper&family=Workbench&family=Yatra+One&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Mina:wght@400;700&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/trajan-pro');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Anta&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Geo:ital@0;1&family=Iceland&family=Kdam+Thmor+Pro&family=Nova+Square&family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&family=Rationale&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sarpanch:wght@400;500;600;700;800;900&family=Teko:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Freehand&family=Great+Vibes&family=Kaushan+Script&family=Kings&family=La+Belle+Aurore&family=Mr+Dafoe&family=My+Soul&family=Nanum+Pen+Script&family=Nova+Square&family=Oooh+Baby&family=Pacifico&family=Ranga:wght@400;700&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Yellowtail&family=Zeyada&display=swap');
+
+:root {
+    --Abel: "Abel", sans-serif;
+    --Advent: "Advent Pro", sans-serif;
+    --Agdasima: "Agdasima", sans-serif;
+    --Alex: "Alex Brush", cursive;
+    --Aldrich: "Aldrich", sans-serif;
+    --Allura: "Allura", cursive;
+    --Alumni: "Alumni Sans", sans-serif;
+    --Annie: "Annie Use Your Telescope", cursive;
+    --Anta: "Anta", sans-serif;
+    --Antonio: "Antonio", sans-serif;
+    --Archi: "Architects Daughter", cursive;
+    --Atma: "Atma", system-ui;
+    --Aurore: "La Belle Aurore", cursive;
+    --Baby: "Oooh Baby", cursive;
+    --Bahiana: "Bahiana", sans-serif;
+    --Bangers: "Bangers", system-ui;
+    --Bebas: "Bebas Neue", sans-serif;
+    --Beth: "Beth Ellen", cursive;
+    --Bigshou: "Big Shoulders Display", sans-serif;
+    --Bilbo: "Bilbo Swash Caps", cursive;
+    --Calligra: "Calligraffitti", cursive;
+    --Caveat: "Caveat", cursive;
+    --Caveat2: "Caveat Brush", cursive;
+    --Chakra: "Chakra Petch", sans-serif;
+    --Copse: "Copse", serif;
+    --Covered: "Covered By Your Grace", cursive;
+    --Dafoe: "Mr Dafoe", cursive;
+    --Dancing: "Dancing Script", cursive;
+    --East: "East Sea Dokdo", sans-serif;
+    --Englebert: "Englebert", cursive;
+    --Fasthand: "Fasthand", cursive;
+    --Freehand: "Freehand", cursive;
+    --Gemunu: "Gemunu Libre", sans-serif;
+    --Geo: "Geo", sans-serif;
+    --Girassol: "Girassol", serif;
+    --Iceland: "Iceland", sans-serif;
+    --Kaushan: "Kaushan Script", cursive;
+    --Kdam: "Kdam Thmor Pro", sans-serif;
+    --Kings: "Kings", cursive;
+    --Kumar: "Kumar One Outline", system-ui;
+    --Lacquer: "Lacquer", system-ui;
+    --Maiden: "Maiden Orange", serif;
+    --Mansalva: "Mansalva", sans-serif;
+    --Metro: "Metrophobic", sans-serif;
+    --Mina: "Mina", sans-serif;
+    --Mohave: "Mohave", sans-serif;
+    --Nanum: "Nanum Pen Script", cursive;
+    --Nova: "Nova Square", sans-serif;
+    --Orbitron: "Orbitron", sans-serif;
+    --Oregano: "Oregano", cursive;
+    --Oswald: "Oswald", sans-serif;
+    --Pacifico: "Pacifico", cursive;
+    --Pragati: "Pragati Narrow", sans-serif;
+    --Public: "Public Sans", sans-serif;
+    --Rajdhani: "Rajdhani", sans-serif;
+    --Ranga: "Ranga", cursive;
+    --Rationale: "Rationale", sans-serif;
+    --Roboto: "Roboto", sans-serif;
+    --Ruda: "Ruda", sans-serif;
+    --Saira: "Saira Condensed", sans-serif;
+    --Sarpanch: "Sarpanch", sans-serif;
+    --Seaweed: "Seaweed Script", cursive;
+    --Sixty: "Sixtyfour", sans-serif;
+    --Slabo: "Slabo 27px", serif;
+    --Sniglet: "Sniglet", system-ui;
+    --Soul: "My Soul", cursive;
+    --Subra: "Montserrat Subrayada", sans-serif;
+    --Sunflower: "Sunflower", sans-serif;
+    --Teko: "Teko", sans-serif;
+    --Tillana: "Tillana", system-ui;
+    --Train: "Train One", system-ui;
+    --Trocchi: "Trocchi", serif;
+    --Unica: "Unica One", sans-serif;
+    --Urbanist: "Urbanist", sans-serif;
+    --Vibes: "Great Vibes", cursive;
+    --Whisper: "Whisper", cursive;
+    --Workbench: "Workbench", sans-serif;
+    --Yatra: "Yatra One", system-ui;
+    --Yellowtail: "Yellowtail", cursive;
+    --Xanh: "Xanh Mono", monospace;
+    --Zeyada: "Zeyada", cursive;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
 /******FICHE RP #2 START******/
 .CHRP2 * {
     box-sizing: border-box;

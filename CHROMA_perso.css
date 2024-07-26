@@ -5,11 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/trajan-pro');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Anta&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Geo:ital@0;1&family=Iceland&family=Kdam+Thmor+Pro&family=Nova+Square&family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&family=Rationale&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sarpanch:wght@400;500;600;700;800;900&family=Teko:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Freehand&family=Great+Vibes&family=Kaushan+Script&family=Kings&family=La+Belle+Aurore&family=Mr+Dafoe&family=My+Soul&family=Nanum+Pen+Script&family=Nova+Square&family=Oooh+Baby&family=Pacifico&family=Ranga:wght@400;700&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Yellowtail&family=Zeyada&display=swap');
 
 :root {
     --Abel: "Abel", sans-serif;
     --Advent: "Advent Pro", sans-serif;
     --Agdasima: "Agdasima", sans-serif;
+    --Alex: "Alex Brush", cursive;
     --Aldrich: "Aldrich", sans-serif;
     --Allura: "Allura", cursive;
     --Alumni: "Alumni Sans", sans-serif;
@@ -19,6 +21,7 @@
     --Archi: "Architects Daughter", cursive;
     --Atma: "Atma", system-ui;
     --Aurore: "La Belle Aurore", cursive;
+    --Baby: "Oooh Baby", cursive;
     --Bahiana: "Bahiana", sans-serif;
     --Bangers: "Bangers", system-ui;
     --Bebas: "Bebas Neue", sans-serif;
@@ -31,15 +34,19 @@
     --Chakra: "Chakra Petch", sans-serif;
     --Copse: "Copse", serif;
     --Covered: "Covered By Your Grace", cursive;
+    --Dafoe: "Mr Dafoe", cursive;
     --Dancing: "Dancing Script", cursive;
     --East: "East Sea Dokdo", sans-serif;
     --Englebert: "Englebert", cursive;
     --Fasthand: "Fasthand", cursive;
+    --Freehand: "Freehand", cursive;
     --Gemunu: "Gemunu Libre", sans-serif;
     --Geo: "Geo", sans-serif;
     --Girassol: "Girassol", serif;
     --Iceland: "Iceland", sans-serif;
+    --Kaushan: "Kaushan Script", cursive;
     --Kdam: "Kdam Thmor Pro", sans-serif;
+    --Kings: "Kings", cursive;
     --Kumar: "Kumar One Outline", system-ui;
     --Lacquer: "Lacquer", system-ui;
     --Maiden: "Maiden Orange", serif;
@@ -47,13 +54,16 @@
     --Metro: "Metrophobic", sans-serif;
     --Mina: "Mina", sans-serif;
     --Mohave: "Mohave", sans-serif;
+    --Nanum: "Nanum Pen Script", cursive;
     --Nova: "Nova Square", sans-serif;
     --Orbitron: "Orbitron", sans-serif;
     --Oregano: "Oregano", cursive;
     --Oswald: "Oswald", sans-serif;
+    --Pacifico: "Pacifico", cursive;
     --Pragati: "Pragati Narrow", sans-serif;
     --Public: "Public Sans", sans-serif;
     --Rajdhani: "Rajdhani", sans-serif;
+    --Ranga: "Ranga", cursive;
     --Rationale: "Rationale", sans-serif;
     --Roboto: "Roboto", sans-serif;
     --Ruda: "Ruda", sans-serif;
@@ -63,6 +73,7 @@
     --Sixty: "Sixtyfour", sans-serif;
     --Slabo: "Slabo 27px", serif;
     --Sniglet: "Sniglet", system-ui;
+    --Soul: "My Soul", cursive;
     --Subra: "Montserrat Subrayada", sans-serif;
     --Sunflower: "Sunflower", sans-serif;
     --Teko: "Teko", sans-serif;
@@ -71,11 +82,13 @@
     --Trocchi: "Trocchi", serif;
     --Unica: "Unica One", sans-serif;
     --Urbanist: "Urbanist", sans-serif;
+    --Vibes: "Great Vibes", cursive;
     --Whisper: "Whisper", cursive;
     --Workbench: "Workbench", sans-serif;
     --Yatra: "Yatra One", system-ui;
     --Yellowtail: "Yellowtail", cursive;
     --Xanh: "Xanh Mono", monospace;
+    --Zeyada: "Zeyada", cursive;
 }
 
 p {
@@ -889,3 +902,128 @@ p {
     font-size: 14px;
 }
 /******FICHE RP #1 END******/
+
+/******FICHE RP #2 START******/
+.CHRP2 * {
+    box-sizing: border-box;
+}
+
+.CHRP2 {
+    width: 650px;
+    background-image: url('https://i.postimg.cc/sg9zdbd3/1.png');
+    display: flex;
+    justify-content: space-between;
+}
+
+.CHRP2_icobloc {
+    position: relative;
+    width: 140px;
+    border-right: 20px solid #00a88f;
+    background-color: #212121;
+    background-image: url('https://i.postimg.cc/MHV6cT4Q/backRP.gif');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CHRP2_grad {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 820px;
+    background: linear-gradient(to bottom, #212121 30%, transparent);
+    z-index: 1;
+}
+
+.CHRP2_player {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+}
+
+.CHRP2_player img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #00a88f;
+}
+
+.CHRP2_player span {
+    display: flex;
+    height: 25px;
+    font-family: var(--Dafoe);
+    font-size: 24px;
+    color: #00a88f;
+    align-items: center;
+}
+
+.CHRP2_player a, .CHRP2_period {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.CHRP2_player a:hover {
+    color: #00a88f;
+}
+
+.CHRP2_content {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CHRP2_titbloc {
+    width: 470px;
+    padding: 10px;
+    background-image: url(https://i.postimg.cc/9fmhW1CZ/fond-titre-RP2.png);
+    background-position: right center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CHRP2_title {
+    font-family: var(--Abel);
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.CHRP2_period {
+    font-style: italic;
+}
+
+.CHRP2_rpbloc {
+    width: 470px;
+    padding: 10px;
+    border: 1px solid #00a88f;
+    background-color: #2c2c2c;
+}
+
+.CHRP2_rpbloc p {
+    font-family: var(--Abel);
+    font-size: 18px;
+    line-height: 20px;
+    text-align: justify;
+    color: #fff;
+}
+
+.CHRP2_cred {
+    position: absolute;
+    bottom: 4px;
+    left: 20px;
+    font-family: var(--Geo);
+    font-size: 11px;
+    color: #ffffff73;
+}
+/******FICHE RP #2 END******/

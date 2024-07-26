@@ -106,6 +106,7 @@ p {
     background-image: url('https://i.postimg.cc/sg9zdbd3/1.png');
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
 
 .CHRP2_icobloc {

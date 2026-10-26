@@ -216,7 +216,7 @@
 }
 
 .CHRP2_rpbloc p strong, .CHRP2_rpbloc p b, .CHRP2_rpbloc p a, .CHRP2_rpbloc p i {
-    color: #fff;
+    color: #fff !important;
 }
 
 .CHRP2_rpbloc p br {

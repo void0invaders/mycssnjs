@@ -149,15 +149,11 @@
     align-items: center;
 }
 
-.CHRP2_player a, .CHRP2_period {
+.CHRP2_period {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     color: #fff;
     text-decoration: none;
-}
-
-.CHRP2_player a:hover {
-    color: #00a88f;
 }
 
 .CHRP2_content {

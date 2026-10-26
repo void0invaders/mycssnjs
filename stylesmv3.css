@@ -97,7 +97,7 @@
 
 .CHRP2 {
     width: 650px;
-    background-image: url('https://i.postimg.cc/sg9zdbd3/1.png');
+    background-image: url('https://i.postimg.cc/65yJYpjr/back-rp.png');
     display: flex;
     justify-content: space-between;
 }
@@ -109,9 +109,9 @@
 .CHRP2_icobloc {
     position: relative;
     width: 140px;
-    border-right: 20px solid #00a88f;
-    background-color: #212121;
-    background-image: url('https://i.postimg.cc/MHV6cT4Q/backRP.gif');
+    border-right: 20px solid #a297ff;
+    background-color: #201d27;
+    background-image: url('https://wallpapershome.com/images/pages/pic_h/6469.jpg');
     background-position: bottom center;
     background-repeat: no-repeat;
     padding: 10px;
@@ -125,8 +125,8 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 820px;
-    background: linear-gradient(to bottom, #212121 30%, transparent);
+    height: 100%;
+    background: linear-gradient(to bottom, #201d27 30%, transparent);
     z-index: 1;
 }
 
@@ -137,11 +137,19 @@
     z-index: 2;
 }
 
+.CHRP2_player:first-child img {
+    border: 1px solid #a6f79f;
+}
+
 .CHRP2_player img {
     width: 100px;
     height: 150px;
     object-fit: cover;
-    border: 1px solid #00a88f;
+    border: 1px solid #a297ff;
+}
+
+.CHRP2_player:first-child span {
+    color: #a6f79f;
 }
 
 .CHRP2_player span {
@@ -149,7 +157,7 @@
     height: 25px;
     font-family: var(--Dafoe);
     font-size: 24px;
-    color: #00a88f;
+    color: #a297ff;
     align-items: center;
 }
 
@@ -171,7 +179,7 @@
 .CHRP2_titbloc {
     width: 470px;
     padding: 10px;
-    background-image: url(https://i.postimg.cc/9fmhW1CZ/fond-titre-RP2.png);
+    background-color: #a297ff;
     background-position: right center;
     display: flex;
     flex-direction: column;
@@ -179,11 +187,11 @@
 }
 
 .CHRP2_title {
-    font-family: var(--Abel);
+    font-family: var(--font-title);
     font-size: 36px;
     text-transform: uppercase;
-    letter-spacing: -1px;
     color: #fff;
+    line-height: 36px;
 }
 
 .CHRP2_period {
@@ -193,8 +201,8 @@
 .CHRP2_rpbloc {
     width: 470px;
     padding: 10px;
-    border: 1px solid #00a88f;
-    background-color: #2c2c2c;
+    border: 1px solid #a297ff;
+    background-color: #2f2a39;
 }
 
 .CHRP2_rpbloc p {
@@ -213,9 +221,9 @@
 
 .CHRP2_cred {
     position: absolute;
-    bottom: 4px;
+    bottom: 0px;
     left: 20px;
     font-family: var(--Geo);
     font-size: 11px;
-    color: #ffffff73;
+    color: #ffffff3d;
 }

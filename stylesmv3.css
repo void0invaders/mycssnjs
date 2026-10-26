@@ -102,6 +102,10 @@
     justify-content: space-between;
 }
 
+.CHRP2 br {
+    display: none;
+}
+
 .CHRP2_icobloc {
     position: relative;
     width: 140px;
@@ -194,11 +198,17 @@
 }
 
 .CHRP2_rpbloc p {
+    margin-block-start: 0;
+    margin-block-end: 0;
     font-family: var(--Abel);
     font-size: 18px;
     line-height: 20px;
     text-align: justify;
     color: #fff;
+}
+
+.CHRP2_rpbloc p br {
+    display: block;
 }
 
 .CHRP2_cred {

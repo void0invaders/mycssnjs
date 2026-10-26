@@ -100,6 +100,7 @@
     background-image: url('https://i.postimg.cc/65yJYpjr/back-rp.png');
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
 
 .CHRP2 br {

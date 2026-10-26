@@ -96,7 +96,7 @@
 }
 
 .CHRP2 {
-    width: 650px;
+    width: 750px;
     background-image: url('https://i.postimg.cc/65yJYpjr/back-rp.png');
     display: flex;
     justify-content: space-between;
@@ -175,7 +175,7 @@
 }
 
 .CHRP2_titbloc {
-    width: 470px;
+    width: 570px;
     padding: 10px;
     background-color: #a297ff;
     background-position: right center;
@@ -197,7 +197,7 @@
 }
 
 .CHRP2_rpbloc {
-    width: 470px;
+    width: 570px;
     padding: 10px;
     border: 1px solid #a297ff;
     background-color: #2f2a39;

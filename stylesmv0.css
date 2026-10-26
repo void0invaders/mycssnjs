@@ -91,11 +91,6 @@
     --Zeyada: "Zeyada", cursive;
 }
 
-p {
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
 .CHRP2 * {
     box-sizing: border-box;
 }
